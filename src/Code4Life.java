@@ -7,12 +7,15 @@ import java.io.File;
 import javax.sound.sampled.AudioInputStream;
 import javax.sound.sampled.AudioSystem;
 import javax.sound.sampled.Clip;
+import javax.swing.JOptionPane;
 
 
 public class Code4Life {
-	
+	public static void main(String[] args) {
+		
 	//1.  Ask the user how many hours they spent coding this week.
-	
+	}
+	String A = JOptionPane.showInputDialog("how many hour");
 	//2.  If it is less than or equal to 2, tell them to stop watching YouTube and write code instead.
 	
 	//3.  If it is greater than or equal to 3 AND less than or equal to 5, tell them they're a Code Ninja
@@ -31,4 +34,5 @@ public class Code4Life {
     }
 
 
+}
 }
